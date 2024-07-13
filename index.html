@@ -1,12 +1,188 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livros</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset=”UTF-8”>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>
+        Ranking Khan Academy
+    </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png"
+        href="https://yt3.googleusercontent.com/ytc/AGIKgqM7qSg3Yrn9i8-r3ANuQy6EWaF6BRpUYXJpbt2rqg=s900-c-k-c0x00ffffff-no-rj" />
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <h1>
+        Ranking das Turmas do Khan Academy
+    </h1>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="Menu" class="container_botao">
+            <label for="Menu" class="container-rotulo">
+                <span class="cabeçalho_menu container_imagem"> </span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu-titulo"> Categorias </li>
+                <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> História </a> </li>
+                <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Números </a> </li>
+                <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Conteúdos </a> </li>
+                <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Aprendizômetro </a> </li>
+                <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Melhores Alunos </a> </li>
+            </ul>
+            <img src="img/Logo.jpg" alt="Logo do Khan">
+            <h1 class="container-titulo">Saiba<b class="container-titulo--negrito">Mais</b></h1>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item"> Categorias </li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> História </a> </li>
+                <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Números </a> </li>
+                <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Conteúdos </a> </li>
+                <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Aprendizômetro </a> </li>
+                <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Melhores Alunos </a> </li>
+            </ul>
+
+        </ul>
+
+        <div class="container">
+            <a href="#" class="container-link">
+                <img src="img/Usuário.svg" alt="Meu Perfil" class="container_imagem">
+                <p class="container-texto"> Meu Perfil </p>
+            </a>
+            <a href="#"> <img src="img/Favoritos.svg" alt="Minhas Turmas" class="container_imagem_transparente"> </a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner-titulo"> Khan Academy </h2>
+        <p class="banner-texto"> Plataforma online GRATUITA que possui muitos exercícios que irão contribuir na sua
+            aprendizagem. Intuitiva e simples, a plataforma primeiro aprende sobre você para depois te ensinar.</p>
+        <input type="search" class="banner-pesquisa" placeholder="O que mais deseja saber?">
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel-titulo">
+            Cursos Disponíveis
+        </h2>
+        <div class="carrossel-container">
+            <div class="swiper"><!-- Início Slider main container -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper"><!-- Início Slides-->
+                    <div class="swiper-slide"><img src="img/1.png" alt="Matemática Ensino Fundamental"></div>
+                    <div class="swiper-slide"><img src="img/2.png" alt="Matemática Ensino Médio"></div>
+                    <div class="swiper-slide"><img src="img/3.png" alt="Matemática Prepare-se"></div>
+                    <div class="swiper-slide"><img src="img/4.png" alt="Ciências Ensino Fundamental"></div>
+                    <div class="swiper-slide"><img src="img/5.png" alt="Português Prepare-se"></div>
+                    <div class="swiper-slide"><img src="img/6.png" alt="Computação Prepare-se"></div>
+                    <div class="swiper-slide"><img src="img/7.png" alt="Khan Academy Educadores"></div>
+                    <div class="swiper-slide"><img src="img/8.png" alt="Cursos Paraná"></div>
+                </div><!--Fim Slides -->
+            </div><!-- Fim Slider main container -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <div class="card">
+                <div class="card-descricao">
+                    <div class="descricao">
+                        <h3 class="descricao-titulo"> Curso Mais Acessado </h3>
+                        <h2 class="descricao-texto"> Qual o curso mais acessado pelos professores do Paraná </h2>
+                    </div>
+                    <img src="img/8.png" class="descricao-imagem">
+                </div>
+                <div class="card-botoes">
+                    <ul class="botoes">
+                        <li class="botoes-itens"> <img src="img/Favoritos.svg" alt="Favoritar Curso"></li>
+                    </ul>
+                    <a href="#" class="botoes-ancora"> Saiba mais </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos-titulos"> Últimos Acessados </h2>
+        <ul class="topicos-listas">
+            <li class="topicos-itens">
+                <a href="#" class="topicos-link"> Aprendizômetro </a>
+            </li>
+            <li class="topicos-itens">
+                <a href="#" class="topicos-link"> Melhores Alunos </a>
+            </li>
+            <li class="topicos-itens">
+                <a href="#" class="topicos-link"> Números </a>
+            </li>
+            <li class="topicos-itens">
+                <a href="#" class="topicos-link"> Conteúdos </a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato-descricao">
+            <h2 class="contato-titulo"> Deixe seu cadastro conosco! </h2>
+            <p class="contato-texto"> Escreva seu e-mail e contactaremos você. </p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato-email">
+    </section>
+
+    <footer class="rodape">
+        <ul class="lista-rodape">
+            <li class="lista-rodape-titulo">
+                Site Oficial
+            </li>
+            <li class="lista-rodape-item">
+                <img src="img/clique.png" alt="Link Khan Academy">
+                <a href="https://pt.khanacademy.org/" class="lista-rodape-link"> Acesse </a>
+            </li>
+        </ul>
+        <ul class="lista-rodape">
+            <li class="lista-rodape-titulo">
+                Última Atualização
+            </li>
+            <li class="lista-rodape-item">
+                <img src="img/relogio.png" alt="Ícone Relógio">
+                <a href="https://github.com/pmatjayme/site-2tri-tiago-reis.git" class="lista-rodape-link"> 22/08/2023
+                </a>
+            </li>
+        </ul>
+        <ul class="lista-rodape">
+            <li class="lista-rodape-titulo">
+                Desenvolvedor
+            </li>
+            <li class="lista-rodape-item">
+                <img src="img/eu.JPG" alt="Foto Pessoal">
+                <a href="http://lattes.cnpq.br/8078240296539717" class="lista-rodape-link"> Tiago Martins dos Reis </a>
+            </li>
+        </ul>
+        <footer class="rodape-mobile"> by Tiago M. R. </footer>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+
 </body>
+
 </html>
