@@ -21,7 +21,7 @@
 
 .contato-email {
     padding: 0.5em;
-    border: 1px solid var(--cor-menu);
+    border: 1px solid var(--cor-menu-itens);
     border-radius: 24px;
     width: 95%;
     color: var(--cor-menu-itens);

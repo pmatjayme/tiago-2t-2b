@@ -27,3 +27,12 @@ h1 {
     background-color: var(--cor-de-cabeçalho);
     color: var(--cor-de-texto-principal);
 }
+
+.logo{
+    width: 30%;
+}
+
+.eu{
+    width: 20%;
+    border-radius: 80%;
+}

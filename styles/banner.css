@@ -10,6 +10,7 @@
     font-weight: 700;
     background-color: var(--cor-de-cabeçalho);
     padding: 1em 0 0.5em 0;
+    color: var(--cor-menu);
 }
 
 .banner-texto {
@@ -20,7 +21,7 @@
 
 .banner-pesquisa {
     background-color: transparent;
-    border: 2px solid var(--cor-de-texto-principal);
+    border: 2px solid var(--cor-menu);
     color: var(--cor-menu-itens);
     border-radius: 24px;
     padding: 1em;
