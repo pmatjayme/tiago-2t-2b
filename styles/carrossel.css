@@ -102,15 +102,19 @@
 @media screen and (min-width: 1728px) {
     .carrossel-container {
         display: flex;
-        margin: 2em 5vw 2em 5vw;
+        margin: 0 0 0 1em;
         align-items: center;
     }
 
-    .swiper,
     .swiper-pagination {
         background-color: var(--cor-de-texto-principal);
         border-radius: 20px;
         margin: 2em 0;
+    }
+
+    .swiper{
+        width: 55%;
+        background-color: var(--cor-de-fundo);
     }
 
     .descricao-titulo {
@@ -123,9 +127,12 @@
 
     .card {
         margin-left: 3em;
+        width: 40%;
+        margin-top: 4em;
     }
 
     .botoes-ancora {
         padding: 0.5em 8em;
     }
+
 }
